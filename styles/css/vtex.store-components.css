@@ -1,0 +1,46 @@
+.infoCardContainer {
+  background-color: white !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.infoCardTextContainer{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #484848;
+}
+.infoCardImageContainer{
+   width: 50%!important; 
+   padding: 2rem;
+}
+@media (max-width: 768px){
+  .infoCardContainer{
+    flex-direction: column;
+    gap: 0px;
+  }
+  .infoCardImageContainer{
+   width: 100%!important; 
+   padding: 0rem;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--dropdown-banner){
+  margin-bottom:3rem
+}
+:global(.vtex-rich-text-0-x-paragraph--message-dropdown){
+  max-width: 500px;
+}
+ :global(.vtex-store-components-3-x-newsletter) {
+    background-color:#FB6834!important;
+
+  }
+   :global(.vtex-store-components-3-x-form) {
+    display: flex!important;
+    flex-direction: row;
+    width: 100%!important;
+    margin:0px!important
+  }

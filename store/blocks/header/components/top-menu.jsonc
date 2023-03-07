@@ -1,0 +1,74 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "blockClass": "websites-container"
+
+    },
+    "children": [
+      "menu-item#lorem1",
+      "menu-item#lorem2",
+      "menu-item#lorem3",
+      "menu-item#lorem4"
+    ]
+  },
+  "menu-item#lorem1": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem1",
+        "text": "LOREM IPSUM"
+      }
+    }
+  },
+    "menu-item#lorem2": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem2",
+        "text": "LOREM IPSUM"
+      }
+    }
+  }, 
+    "menu-item#lorem3": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem3",
+        "text": "LOREM IPSUM"
+      }
+    }
+  },
+      "menu-item#lorem4": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem4",
+        "text": "LOREM IPSUM"
+      }
+    }
+  }
+}

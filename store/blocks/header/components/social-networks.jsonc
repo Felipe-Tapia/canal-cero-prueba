@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#social-networks": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "social-networks"
+    },
+    "children": ["image#facebook", "image#instagram", "image#twitter"]
+  },
+  "image#facebook": {
+    "title": "img-facebook",
+    "props": {
+      "src": "/arquivos/facebook-icon.png",
+      "maxHeight": 40,
+      "blockClass": "icon-facebook",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#instagram": {
+    "title": "img-instagram",
+    "props": {
+      "src": "/arquivos/instagram-icon.png",
+      "maxHeight": 40,
+      "blockClass": "icon-instagram",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#twitter": {
+    "title": "img-twitter",
+    "props": {
+      "src": "/arquivos/twitter-icon.png",
+      "maxHeight": 40,
+      "blockClass": "icon-twitter",
+      "link": {
+        "url": "/"
+      }
+    }
+  }
+}

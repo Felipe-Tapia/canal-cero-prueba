@@ -1,0 +1,16 @@
+{
+  "info-card#banner-home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textMode": "rich-text",
+      "imageUrl": "/arquivos/unsplash_1W1VSHDCZiQ.png",
+      "headline": "LOREM \n **LOREM IPSUM**",
+      "subhead": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "blockClass": "info-card-home",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "responsive-layout.desktop": {
+    "title": "HOME PRUEBA CANALCERO DESKTOP",
+    "children": [
+      "flex-layout.row#main-banner",
+      "info-card#banner-home",
+      "flex-layout.row#dropdown-banner",
+      "newsletter",
+      "__fold__"
+    ]
+  },
+  "newsletter": {
+    "props": {
+      "label": "LOREM IPSUM DOLOR \n **LOREM IPSUM DOLOR** ",
+      "placeholder": "email",
+      "submit": "SUSCRÍBETE"
+    }
+  }
+}

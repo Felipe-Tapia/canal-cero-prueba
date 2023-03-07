@@ -1,0 +1,21 @@
+:global(.vtex-sticky-layout-0-x-container--sticky-header) {
+  background: white;
+  max-width: 1520!important;
+  margin:auto!important
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--icon-facebook),
+:global(.vtex-store-components-3-x-imageElementLink--icon-twitter),
+:global(.vtex-store-components-3-x-imageElementLink--icon-instagram) {
+  margin: 7px 18px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  background: #fff!important;
+}

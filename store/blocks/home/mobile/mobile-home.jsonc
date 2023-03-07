@@ -1,0 +1,12 @@
+{
+  "responsive-layout.mobile": {
+    "title": "HOME PRUEBA CANALCERO MOBILE",
+    "children": [
+      "flex-layout.row#main-banner",
+      "info-card#banner-home",
+      "flex-layout.row#dropdown-banner",
+      "newsletter",
+      "__fold__.mobile"
+    ]
+  }
+}
