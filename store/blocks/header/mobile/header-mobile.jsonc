@@ -1,88 +1,73 @@
 {
-  "header-layout.mobile": {
-    "title": "HEADER - mobile",
-    "children": [
-      "sticky-layout#mobile-header-container"
-    ]
-  },
-  "sticky-layout#mobile-header-container": {
-    "children": [
-      "flex-layout.row#header-mobile-wrapper"
-    ],
+  /// BOTTOM STICKY
+  // Drawer, user, cart, locations and help
+  // TODO: links are still just placeholders.
+  // ----------------------------------------
+  "sticky-layout#header-mobile-sticky-layout": {
+    "children": ["flex-layout.row#header-mobile-sticky-layout-bottom"],
     "props": {
+      "position": "bottom",
       "blockClass": "sticky-header-mobile-bottom"
     }
   },
-  // "header-row#desktop-header-top-line-gray": {
-  //   "props": {
-  //     "fullWidth": true,
-  //     "blockClass": "header-top-line-gray",
-  //     "horizontalAlign": "right"
-  //   },
-  //   "children":[
-  //     "flex-layout.row#cinta-retiro-tienda"
-  //   ]
-  // },
-  "header-row#mobile-header-wrapper": {
-    "props": {
-      "blockClass": "mobile-header-wrapper"
-    },
+  "flex-layout.row#header-mobile-sticky-layout-bottom": {
     "children": [
-      "flex-layout.row#header-mobile-wrapper"
-    ]
-  },
-  "flex-layout.row#header-mobile-wrapper": {
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "header-mobile-wrapper"
-    },
-    "children": [
-      "flex-layout.row#header-content-drawer-&-search",
-      "logo",
-      "flex-layout.row#header-content-offers-&-minicart"
-    ]
-  },
-  "flex-layout.row#header-content-drawer-&-search": {
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "header-content-drawer-and-search"
-    },
-    "children": [
-      "drawer"
-    ]
-  },
-  "flex-layout.row#header-content-offers-&-minicart": {
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "header-content-offers-minicart"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#header-mobile-menu-offers",
-      "minicart.v2"
-    ]
-  },
-  "vtex.menu@2.x:menu#header-mobile-menu-offers": {
-    "children": [
-      "menu-item#offers"
+      "flex-layout.col#header-mobile-drawer-button",
+      "flex-layout.col#header-mobile-login",
+      "flex-layout.col#header-mobile-minicart"
+      //"flex-layout.col#header-mobile-tiendas",
+      //"flex-layout.col#header-mobile-ayuda"
     ],
+
     "props": {
-      "blockClass": "header-mobile-menu-offers"
+      "blockClass": "header-mobile-sticky-layout-bottom",
+      // "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center"
+      //"colSizing": "equal"
     }
   },
-  "menu-item#offers": {
+  /*-----------------------------section drawer button --------------------------------------------------*/
+  "flex-layout.col#header-mobile-drawer-button": {
+    "children": ["drawer"],
     "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "promociones",
-        "noFollow": false,
-        "tagTitle": "Promociones"
-      },
-      "iconProps": {
-        "id": "hpa-offers",
-        "size": 22,
-        "viewBox": "0 0 22 22"
-      },
-      "blockClass": "header-menu-offers-icon"
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  /*-------------------------------------Section login--------------------------*/
+  "flex-layout.col#header-mobile-login": {
+    "children": ["login#sticky-mobile"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "login#sticky-mobile": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "sticky-mobile",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky-mobile"]
+  },
+  "icon-profile#sticky-mobile": {
+    "props": {
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  },
+
+  /*-------------------------------------Section minicart--------------------------*/
+  "flex-layout.col#header-mobile-minicart": {
+    "children": ["minicart.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
     }
   }
 }

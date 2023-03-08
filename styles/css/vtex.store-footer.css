@@ -1,0 +1,35 @@
+:global(.vtex-store-footer-2-x-footerLayout) {
+  background: #484848;
+  max-width: 1528px!important;
+  padding: 3rem;
+  margin:auto;
+}
+@media (min-width: 768px) {
+   :global(.vtex-store-footer-2-x-footerLayout) {
+  padding: 4rem 7rem;
+}
+:global(.vtex-store-components-3-x-imageElement--footer-img) {
+ max-width:400px!important
+}
+:global(.vtex-menu-2-x-menuContainerNav--item-lorem-footer-desk) {
+ margin-top:140px
+}
+:global(.vtex-store-footer-2-x-socialNetworksContainer){
+   margin-top:100px;
+}
+:global(.vtex-store-footer-2-x-socialNetworkLink--twitter),
+:global(.vtex-store-footer-2-x-socialNetworkLink--facebook),
+:global(.vtex-store-footer-2-x-socialNetworkLink--instagram){
+   padding:0px 5px;
+   width:50px
+}
+}
+:global(.vtex-store-components-3-x-imageElement--footer-img) {
+ max-width:100px
+}
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu-footer) {
+ margin:0px!important
+}
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-footer) {
+ color: white;
+}

@@ -38,20 +38,18 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["drawer"],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
+      "orientation": "vertical",
+      "blockClass": "menu-mobile"
+    },
+    "children": ["drawer"]
   },
   "drawer": {
     "children": [
-      "menu-item#lorem1",
-      "menu-item#lorem2",
-      "menu-item#lorem3",
-      "menu-item#lorem4",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem2-mobile",
+      "menu-item#lorem3-mobile",
+      "menu-item#lorem4-mobile",
       "flex-layout.row#social-networks"
     ]
   }

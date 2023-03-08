@@ -3,6 +3,9 @@
   max-width: 1520!important;
   margin:auto!important
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-mobile){
+   background: white;
+}
 
 :global(.vtex-store-components-3-x-imageElementLink--icon-facebook),
 :global(.vtex-store-components-3-x-imageElementLink--icon-twitter),
@@ -18,4 +21,18 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   background: #fff!important;
+}
+
+@media(max-width:767px) {
+:global(.vtex-store-drawer-0-x-childrenContainer){
+  display: flex;
+  flex-direction: column
+}
+:global(.vtex-menu-2-x-styledLinkContent){
+  padding:.5rem 0rem
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--social-networks){
+  display:flex;
+  flex-direction: row
+}
 }

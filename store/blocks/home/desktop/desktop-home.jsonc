@@ -6,14 +6,16 @@
       "info-card#banner-home",
       "flex-layout.row#dropdown-banner",
       "newsletter",
+      "contact-us-form",
       "__fold__"
     ]
   },
   "newsletter": {
     "props": {
-      "label": "LOREM IPSUM DOLOR \n **LOREM IPSUM DOLOR** ",
-      "placeholder": "email",
-      "submit": "SUSCRÍBETE"
+      "label": "LOREM IPSUM DOLOR LOREM IPSUM DOLOR",
+      "placeholder": "EMAIL",
+      "submit": "SUSCRÍBETE",
+      "blockClass": "newsletter-home"
     }
   }
 }

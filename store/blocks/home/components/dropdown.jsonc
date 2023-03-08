@@ -48,7 +48,8 @@
   },
   "rich-text#question1": {
     "props": {
-      "text": "Lorem ipsum **dolor**"
+      "text": "Lorem ipsum **dolor**",
+      "blockClass": "dropdown-text"
     }
   },
   "rich-text#answer1": {
@@ -78,7 +79,8 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "Lorem ipsum **dolor**"
+      "text": "Lorem ipsum **dolor**",
+      "blockClass": "dropdown-text"
     }
   },
   "rich-text#answer2": {
@@ -108,7 +110,8 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "Lorem ipsum **dolor**"
+      "text": "Lorem ipsum **dolor**",
+      "blockClass": "dropdown-text"
     }
   },
   "rich-text#answer3": {

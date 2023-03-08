@@ -70,5 +70,65 @@
         "text": "LOREM IPSUM"
       }
     }
+  },
+    "menu-item#lorem1-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem1",
+        "text": "LOREM IPSUM"
+      }
+    }
+  },
+    "menu-item#lorem2-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem2",
+        "text": "LOREM IPSUM"
+      }
+    }
+  }, 
+    "menu-item#lorem3-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem3",
+        "text": "LOREM IPSUM"
+      }
+    }
+  },
+      "menu-item#lorem4-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lorem4",
+        "text": "LOREM IPSUM"
+      }
+    }
   }
 }

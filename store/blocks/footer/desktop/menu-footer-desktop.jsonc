@@ -1,0 +1,32 @@
+{
+  "vtex.menu@2.x:menu#item-img-footer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "servivio-al-cliente"
+    },
+    "children":[
+      "image#footer-img"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-lorem-footer-desk": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "item-lorem-footer-desk"
+    },
+    "children":[
+      "menu-item#lorem-footer",
+      "menu-item#lorem-footer"
+    ]
+  },
+    "vtex.menu@2.x:menu#item-lorem-footer-desk-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "item-lorem-footer-desk"
+    },
+    "children":[
+      "menu-item#lorem-footer",
+      "menu-item#lorem-footer",
+      "social-networks"
+    ]
+  }
+}

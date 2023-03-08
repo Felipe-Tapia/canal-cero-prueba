@@ -1,3 +1,29 @@
-.vtex-store-components-3-x-newsletter{
-  background-color: red!important;
+:global(.vtex-store-components-3-x-newsletter) {
+  background-color: #fb6834 !important;
 }
+:global(.vtex-store-components-3-x-label--newsletter-home) {
+  font-size: 1.5em !important;
+  text-align: left !important;
+  max-width:1520px!important;
+  display:flex
+}
+/* :global(.vtex-store-components-3-x-form) {
+  display: flex !important;
+  flex-direction: row;
+  width: 100% !important;
+  margin: 0px !important;
+} */
+
+:global(.vtex-input-prefix__group) {
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+:global(.vtex-button__label) {
+  color: #fb6834;
+  background-color: white;
+  font-size: 14px;
+  padding:.8rem 4.5rem!important;
+  margin-right:1rem
+}
+

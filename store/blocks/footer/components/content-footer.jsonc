@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#content-footer":{
+        "children":[
+            "vtex.menu@2.x:menu#item-img-footer",
+            "vtex.menu@2.x:menu#item-lorem-footer-desk",
+            "vtex.menu@2.x:menu#item-lorem-footer-desk-2"
+        ],
+        "props": { 
+        "blockClass": "content-footer", 
+        "marginTop": 6 
+    }
+    }
+}

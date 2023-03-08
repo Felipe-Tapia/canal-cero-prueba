@@ -6,6 +6,7 @@
       "info-card#banner-home",
       "flex-layout.row#dropdown-banner",
       "newsletter",
+      "contact-us-form",
       "__fold__.mobile"
     ]
   }
